@@ -26,7 +26,7 @@ public final class LlamaService {
 
     public static void main(String... args) throws IOException {
         ModelParameters modelParams = new ModelParameters()
-                .setModelFilePath("models/mistral-7b-instruct-v0.2.Q2_K.gguf")
+                .setModelFilePath("models/Codestral-22B-v0.1-IQ2_M.gguf")
                 .setNGpuLayers(43);
         String system = "This is a conversation between User and Llama, a friendly chatbot.\n" +
                 "Llama is helpful, kind, honest, good at writing, and never fails to answer any " +
